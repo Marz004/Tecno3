@@ -86,5 +86,33 @@
         </article>
     </section>
 
+    <section class="formulario">
+        <form action="mailto:mail@gmail.com" method="POST">
+            <div>
+                <label >Nombre</label>
+                <input type="text" name="name" required>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="mail" required>
+            </div>
+            <div>
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="fecha" required>
+            </div>
+            <div>
+                <label >Ayudame a mejorar mi pagina</label>
+                <textarea name="mensaje" required></textarea>
+            </div>
+            <div>
+                <label>            
+                    <input type="checkbox" value="si"> Me encanto
+                    <input type="checkbox" value="no"> Podria mejorar
+                </label>
+            </div>
+            <input type="submit" value="Enviar feedback">
+        </form>
+    </section>
+
 </body>
 </html>
